@@ -1,0 +1,88 @@
+.Top {
+    border: 10px solid #D79900;
+    border-radius: 10px;
+    display: flex;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    width: 98%;
+}
+    
+.TopLeft, .TopMiddle, .TopRight {
+    display: flex;
+    flex: 32%;
+    width: 32%;
+    margin: 1%;
+    padding: 0px;
+}
+    
+
+.Left {
+    flex: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.Right {
+    flex: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.Left:hover {
+    color: #F4D03F;
+}
+
+.BigLetters {
+    font-size: 90px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.LittleLetters {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.LittleLetters1 {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.Bottom {
+    display: flex;
+}
+
+#barChart {
+    flex: 50%;
+    margin-left: 25px;
+}
+
+#pieChart {
+    margin-top: 40px;
+    flex: 50%;
+}
+
+.Left1 {
+    flex: 45%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.Right1 {
+    flex: 55%;
+    padding: 0;
+    margin: 0;
+}

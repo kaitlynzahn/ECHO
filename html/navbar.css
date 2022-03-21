@@ -1,0 +1,62 @@
+#navBar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFF4D6;
+}
+
+#navBar li {
+    float: left;
+}
+
+#navBar li a, #log{
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+#navBar li a:hover:not(.activeClass) {
+    background-color: black; /*#D79900*/
+    color: white;
+}
+
+#navBar .activeClass {
+    background-color: #D79900;
+    color: white;
+}
+
+#navBar #log {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#text {
+    flex: 40%;
+    width: 40%;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    box-shadow: 0px 8px 5px 0px black;
+}
+
+p {
+    margin: 5px;
+}
+
+#map {
+    flex: 40%;
+    width: 30%;
+    height: 600px;
+}
+
+#container {
+    width: 95%;
+    display: flex;
+}
